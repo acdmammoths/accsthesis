@@ -12,4 +12,4 @@ It follows the [college requirements for
 theses](https://www.amherst.edu/academiclife/registrar/for-students/thesis_guide).
 
 It should be linked from the [CS department page on
-honors](https://www.amherst.edu/academiclife/departments/computer_science/major/honors)
+honors](https://www.amherst.edu/academiclife/departments/computer_science/major/honors).
