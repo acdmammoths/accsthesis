@@ -1,5 +1,9 @@
 # Amherst College Computer Science Honors Thesis LaTeX template
 
+![LaTeX
+CI](https://github.com/acdmammoths/accsthesis/actions/workflows/LaTeXCI.yml/badge.svg)
+![LaTeX lint](https://github.com/acdmammoths/accsthesis/actions/workflows/LaTeXLint.yml/badge.svg)
+
 A *minimal* template for typesetting an honors thesis in the [Computer Science
 Department](https://cs.amherst.edu) at [Amherst
 College](https://www.amherst.edu).
