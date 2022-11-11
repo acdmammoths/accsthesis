@@ -34,6 +34,8 @@
 
 \begin{document} % Let's go!
 
+\pagenumbering{roman} % Use Roman numbers for the frontmatter pages
+
 %% The title page: do not remove or change %%
 \begin{titlepage}
   % This title page is in part inspired by the titleDS example in the titlepages
@@ -58,8 +60,6 @@
   {\scshape \makeatletter\@author\makeatother}
 \end{titlepage}
 
-\pagenumbering{roman} % Use Roman numbers for the frontmatter pages
-
 \chapter*{Abstract} % An abstract is required
 
 Your abstract here (1 page at most)
@@ -69,12 +69,12 @@ Your abstract here (1 page at most)
 Thanks, Alan Turing!
 
 \tableofcontents % Required ToC after abstract and acknowledgements
+\clearpage % Ensure that the ToC gets Roman page numbers and single spacing.
 
 \doublespacing% Use double spacing in the main text
+\pagenumbering{arabic} % Use Arab numbers for the main body pages.
 
 \chapter{Your First Chapter Title in Title Case}
-\pagenumbering{arabic} % Use Arab numbers for the main body pages. This command
-                       % must be here otherwise the ToC gets arabic page numbers
 
 \lipsum% Remove this when you start writing.
 
